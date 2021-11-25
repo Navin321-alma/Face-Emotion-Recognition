@@ -44,3 +44,14 @@ In deep learning, a convolutional neural network (CNN, or ConvNet) is a class of
 
 # loss and accuracy plot 
 ![image](https://user-images.githubusercontent.com/85887169/143301341-40eb088f-52ed-4353-ab4d-b64714b0824a.png)
+
+# Realtime Local Video Face Detection
+I created two patterns for detecting and predicting single faces and as well as multiple faces using OpenCV videocapture in local. For Webapp , OpenCV can’t be used. Thus, using Streamlit-Webrtc for front-end application.
+
+# Deployment of Streamlit WebApp in Heroku and Streamlit
+In this repository I have made a front end using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
+Heroku Link : https://facial-emotion-detection-alma.herokuapp.com/
+Stream link : link is not officially uploaded on stream-lit platform () 
+
+# Conclusion
+Finally I build the webapp and deployed which has training accuracy of 83% and test accuracy of 57% 
