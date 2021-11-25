@@ -50,8 +50,9 @@ I created two patterns for detecting and predicting single faces and as well as 
 
 # Deployment of Streamlit WebApp in Heroku and Streamlit
 In this repository I have made a front end using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
-Heroku Link : https://facial-emotion-detection-alma.herokuapp.com/
-Stream link : link is not officially uploaded on stream-lit platform () 
+
+- Heroku Link : https://facial-emotion-detection-alma.herokuapp.com/
+- Stream link : link is not officially uploaded on stream-lit platform (https://drive.google.com/file/d/1UqbNpTsys6wr8s3DZcYbNRPiF_n_f3L0/view) 
 
 # Conclusion
 Finally I build the webapp and deployed which has training accuracy of 83% and test accuracy of 57% 
